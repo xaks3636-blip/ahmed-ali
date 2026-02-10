@@ -1,0 +1,7 @@
+{
+  "name": "Ahmed Ali",
+  "description": "A sophisticated AI-powered platform for generating and enhancing images using the Gemini 2.5 series models. Supports dual-language (English/Arabic), dark mode, and various artistic styles.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

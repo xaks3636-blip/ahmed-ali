@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmed Ali</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+    <!-- PLACEHOLDER: Paste your AdSense Auto-Ads Script here -->
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              accent: {
+                DEFAULT: '#10b981', // Emerald 500
+                dark: '#064e3b',    // Emerald 900
+                light: '#34d399',   // Emerald 400
+              },
+              brandBlack: '#000000',
+            },
+            fontFamily: {
+              en: ['Inter', 'sans-serif'],
+              ar: ['Noto Sans Arabic', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+Arabic:wght@300;400;500;600;700;800;900&display=swap');
+      
+      body {
+        margin: 0;
+        background-color: #000000;
+        color: #ffffff;
+      }
+
+      .font-en { font-family: 'Inter', sans-serif; }
+      .font-ar { font-family: 'Noto Sans Arabic', sans-serif; }
+      
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #000000;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #064e3b;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #10b981;
+      }
+
+      .glow-accent {
+        box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);
+      }
+      .glow-accent:hover {
+        box-shadow: 0 0 30px rgba(16, 185, 129, 0.4);
+      }
+
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .animate-fadeIn {
+        animation: fadeIn 0.5s ease-out forwards;
+      }
+
+      /* Advertisement Container Styles */
+      .ad-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(16, 185, 129, 0.1);
+        border-radius: 12px;
+        overflow: hidden;
+        margin: 10px 0;
+      }
+      .ad-label {
+        font-size: 8px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: rgba(16, 185, 129, 0.4);
+        margin-top: 4px;
+        margin-bottom: 4px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
